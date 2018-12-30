@@ -1,0 +1,29 @@
+#footer{
+	padding: 50px 30px;
+	background: #12161b;
+
+	.footerContent{
+		color: $white;
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		
+		li{
+			list-style: none;
+			padding: 13px;
+			a{
+				color: $white;
+				text-transform: unset;
+			}
+		}
+	}
+	@media (max-width: 768px){
+		.footerContent{
+			grid-template-columns: auto auto;
+		}
+	}
+	@media (max-width: 500px){
+		.footerContent{
+			grid-template-columns: auto;
+		}
+	}
+}
