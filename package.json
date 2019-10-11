@@ -20,5 +20,11 @@
     "webpack": "^4.28.3",
     "webpack-stream": "^5.2.1"
   },
-  "Dependencies": {}
+  "dependencies": {
+    "tailwindcss": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jualahmed/design-start.git"
+  }
 }
