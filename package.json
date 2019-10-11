@@ -1,6 +1,6 @@
 {
-  "name": "travel-site",
-  "version": "1.0.0",
+  "name": "design-start",
+  "version": "1.0.1",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "browser-sync": "^2.12.8",
