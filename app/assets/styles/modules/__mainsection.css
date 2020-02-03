@@ -1,0 +1,26 @@
+.mainsection{
+	.review-star{
+		width: 1rem;
+		height: 1rem;
+	}
+	h3{
+		font-size: 2rem;
+	}
+	h4{
+		font-size: 1.2rem;
+	}
+	.card{
+		img{
+			width: 100%;
+		}
+	}
+	.row{
+		display: flex;
+	}
+	.left{
+		width: 40%;
+	}
+	.right{
+		width: 60%;
+	}
+}

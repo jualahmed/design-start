@@ -1,21 +1,12 @@
+.btn-info{
+	background: #59D8D1;
+	color: #fff;
+	border-radius: 15px;
+}
 .btn{
-	background: $grayishNavy;
-	padding: .6rem 1.5rem;
-	border: none;
-	font-size: 16px;
-	border-radius: 30px;
-	color: $white;
-	font-weight: 700;
+	padding: 12px 20px;
+	cursor: pointer;
 }
-.btn:hover{
-	background: $lightGreen;
-}
-.post_btn{
-	border-radius:0px;
-}
-.post_btn:hover{
-	border-radius:0px;
-	background: $white;
-	color:$grayishNavy; 
-	box-shadow: 10px 10px 26px 0px rgba(227,231,235,1);
+.btn-dark{
+	background: #FA6E3D;
 }

@@ -1,7 +1,24 @@
+.top-bar{
+	min-height: 3rem;
+	background: url('/temp/SVG/top.svg');
+	background-size: contain;
+}
 .top-nav{
+	min-height: 3rem;
 	display: flex;
 	text-align: center;
+	align-items: center;
 	div{
 		width: 33.33%;
+	}
+}
+.home{
+	min-height: 800px;
+	background-color: #23123A;
+	background-image: url('/temp/SVG/home.svg');
+	h2{
+		color: #fff;
+		font-size: 5rem;
+		padding-top: 25px;
 	}
 }

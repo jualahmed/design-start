@@ -1,2 +1,25 @@
 @import "normalize.css";
 @import "modules/__header.css";
+@import "modules/__mainsection.css";
+
+/*globalcssmodule*/
+@import "globalcssmodule/__container.css";
+@import "globalcssmodule/__typography.css";
+@import "globalcssmodule/__class.css";
+@import "globalcssmodule/__btn.css";
+
+body{
+	background: #F1F5F8;
+	padding: 0px;
+	margin: 0px;
+}
+.bg-white{
+	background: #fff;
+}
+h1,h2,h3,h4,h5,h6,p{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
