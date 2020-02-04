@@ -19,3 +19,21 @@
 .mb-5{
 	margin-bottom: 2.5rem;
 }
+.w-100{
+	width: 100%;
+}
+.px-3{
+	padding: 15px 0px;
+}
+.pt-2{
+	padding-top: 10px; 
+}
+.w-70{
+	width: 70%;
+}
+.pr-4{
+	padding-right: 20px;
+}
+.text-right{
+	text-align: right;
+}

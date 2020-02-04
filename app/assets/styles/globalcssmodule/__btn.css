@@ -9,4 +9,11 @@
 }
 .btn-dark{
 	background: #FA6E3D;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px;
+    font-size: 20px;
 }
