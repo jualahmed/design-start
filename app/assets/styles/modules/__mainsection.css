@@ -17,21 +17,53 @@
 	}
 	.row{
 		display: flex;
+		flex-wrap: wrap;
 	}
 	.left{
-		width: 35%;
+		width: 30%;
 	}
 	.right{
 		width: 65%;
 	}
 	.list-group{
-		line-height: 25px;
 		font-size: 20px;
+		li{
+			line-height: 39px;
+
+		}
+	}
+	.footerlink{
+		font-size: 23px;
+	}
+	.border-2{
+		border: 1px solid #B2C0C5;
+	}
+	.review-info{
+		font-size: 21px;
+    	margin-left: 18px;
 	}
 }
+
 
 @media screen (max-width: 768px) {
 	.left{
 		width: 100%;
 	}
+	.my-5{
+		margin: 0rem;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.left{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 425px) {
+	
 }

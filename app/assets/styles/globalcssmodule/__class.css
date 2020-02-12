@@ -37,3 +37,9 @@
 .text-right{
 	text-align: right;
 }
+.border-right-1{
+	border-right: 3px solid #EDEFF1;
+}
+.info{
+	color: #4AAFF8;
+}

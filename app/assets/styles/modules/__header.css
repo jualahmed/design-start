@@ -1,24 +1,61 @@
 .top-bar{
 	min-height: 3rem;
 	background: url('/temp/SVG/top.svg');
-	background-size: contain;
+	background-size: cover;
 }
 .top-nav{
-	min-height: 3rem;
 	display: flex;
 	text-align: center;
 	align-items: center;
 	div{
 		width: 33.33%;
+		padding: 15px 0px;
 	}
 }
 .home{
 	min-height: 800px;
 	background-color: #23123A;
-	background-image: url('/temp/SVG/home.svg');
+	background: url('/temp/SVG/home.svg') no-repeat center center;
+	background-size: cover;
 	h2{
 		color: #fff;
-		font-size: 5rem;
+		font-size: 9rem;
 		padding-top: 25px;
+	}
+}
+
+@media screen and (max-width: 605px) {
+	.d-none{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.home{
+		min-height: 550px;
+		h2{
+			font-size: 6rem;
+			padding-top: 35px;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.home{
+		min-height: 450px;
+		h2{
+			font-size: 5rem;
+			padding-top: 35px;
+		}
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.home{
+		min-height: 450px;
+		h2{
+			font-size: 4.5rem;
+			padding-top: 35px;
+		}
 	}
 }
