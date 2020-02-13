@@ -2,6 +2,7 @@
 	min-height: 3rem;
 	background: url('/temp/SVG/top.svg');
 	background-size: cover;
+	background: #23123A;
 }
 .top-nav{
 	display: flex;
@@ -14,8 +15,7 @@
 }
 .home{
 	min-height: 800px;
-	background-color: #23123A;
-	background: url('/temp/SVG/home.svg') no-repeat center center;
+	background: #23123A url('/temp/SVG/home.svg') no-repeat center center;
 	background-size: cover;
 	h2{
 		color: #fff;

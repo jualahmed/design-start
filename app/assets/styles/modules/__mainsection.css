@@ -1,4 +1,5 @@
 .mainsection{
+	margin: 2rem;
 	.review-star{
 		width: 1rem;
 		height: 1rem;
@@ -29,7 +30,6 @@
 		font-size: 20px;
 		li{
 			line-height: 39px;
-
 		}
 	}
 	.footerlink{
@@ -39,31 +39,91 @@
 		border: 1px solid #B2C0C5;
 	}
 	.review-info{
-		font-size: 21px;
+		font-size: 20px;
     	margin-left: 18px;
 	}
-}
-
-
-@media screen (max-width: 768px) {
-	.left{
-		width: 100%;
+	.padding{
+		padding: 10px;
+	},
+	.content{
+		padding: 2rem;
 	}
-	.my-5{
-		margin: 0rem;
+	.applaybtn2{
+		display: none;
 	}
 }
 
 @media screen and (max-width: 1024px) {
-	.left{
-		width: 100%;
+	.main-review{
+		display: none;
+	}
+	.mainsection{
+		.content{
+			padding: 1rem!important;
+		}
+		.left{
+			width: 100%;
+		}
+		.right{
+			width: 100%;
+		}
+		.applaybtn1{
+			display: none;
+		}
+		.applaybtn2{
+			display: block;;
+		}
 	}
 }
 
 @media screen and (max-width: 768px) {
-	
+	.mainsection{
+		margin: 0rem;
+		.left{
+			width: 100%;
+		}
+		.right{
+			width: 100%;
+		}
+		.my-5{
+			margin: 0rem;
+		}
+		.list-group{
+			padding-left: 20px!important;
+			font-size: 17px;
+			li{
+				line-height: 30px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.mainsection{
+		h3{
+			font-size: 1.5rem;
+		}
+	}
 }
 
 @media screen and (max-width: 425px) {
-	
+	.mainsection{
+		h3{
+			font-size: 1.2rem;
+		}
+		h4{
+			font-size: 1rem;
+		}
+		h2{
+			font-size: 1rem;
+		}
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.mainsection{
+		.btn-info{
+			font-size: 14px;
+		}
+	}
 }
